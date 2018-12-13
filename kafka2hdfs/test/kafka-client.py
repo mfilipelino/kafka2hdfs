@@ -94,7 +94,7 @@ def main():
     while True:
         time.sleep(time_sleep)
         response = requests.post(
-            'https://v2datalakeb2wio-a.akamaihd.net/send-data/juvenal-order/juvenal',
+            'https://v2datalakeb2wio.com/v1/input',
             json = {'count': count, 'test': 'test1'}
         )
         count += 1
